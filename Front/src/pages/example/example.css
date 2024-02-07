@@ -1,0 +1,5 @@
+/* прописываем стили для своей страницы */
+
+.examplePage_container a {
+    color: brown;
+}
