@@ -1,7 +1,7 @@
 from peewee import *
 
-database = PostgresqlDatabase(
-    "codesaurs", user="postgres", password="postgres", host="localhost", port=5432
+database = MySQLDatabase(
+    "codesaurs", user="root", password="rootroot", port=3306, host="localhost"
 )
 
 class BaseModel(Model):

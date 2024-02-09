@@ -5,10 +5,9 @@ from models.courselesson import CourseLesson
 class Task(BaseModel):
     id = AutoField(primary_key=True)
     lesson_id = ForeignKeyField(CourseLesson, related_name="homeworks")
-    name = CharField(null=False, max_length=64)
+    name = CharField(null=False)
     description = TextField(null=False)
-    solution = TextField(null=False) # is necessary?
+    solution = TextField(null=False)
     answer = TextField(null=False)
-    # hints = # список строк?
-    check = CharField(null=False, constraints=[Check('check IN ( "auto", "manual" )')])
+    check = CharField(null=False, choices = ["auto", "manual"])
     points = IntegerField(null=False)

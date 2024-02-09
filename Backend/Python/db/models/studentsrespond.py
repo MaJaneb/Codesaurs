@@ -9,6 +9,6 @@ class StudentRespond(BaseModel):
     student_id = ForeignKeyField(Student, related_name="responds")
     task_id = ForeignKeyField(Task, related_name="students")
     answer = TextField(null=False)
-    answer_file = TextField() # is null necessary?
+    answer_file = TextField()
     grade = IntegerField(null=False)
-    comment = TextField(null=False)
+    comment = TextField()

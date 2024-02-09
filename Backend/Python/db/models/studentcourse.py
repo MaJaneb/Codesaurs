@@ -7,6 +7,6 @@ class StudentCourse(BaseModel):
     id = AutoField(primary_key=True)
     student_id = ForeignKeyField(Student, related_name="students")
     course_id = ForeignKeyField(Course, related_name="course")
-    start_date = TimestampField(null=False) # default сегодня
-    progress = IntegerField(null=False, default=0) # percentage?
+    start_date = TimestampField(null=False)
+    progress = IntegerField(null=False, default=0)
     score = IntegerField(null=False, default=0)

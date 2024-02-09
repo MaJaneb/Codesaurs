@@ -6,8 +6,8 @@ from models.teacher import Teacher
 class CourseLesson(BaseModel):
     id = AutoField(primary_key=True)
     course_id = ForeignKeyField(Course, related_name="courselessons")
-    name = CharField(null=False, max_length=64)
+    name = CharField(null=False)
     description = TextField(null=False)
     date = TimestampField(null=False)
     teacher = ForeignKeyField(Teacher, related_name="teachers")
-    record_url = TextField(null=False) # добавить default со ссылкой на "нет записи"
+    record_url = TextField()
