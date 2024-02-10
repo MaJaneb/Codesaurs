@@ -13,5 +13,3 @@ database.connect()
 
 database.create_tables([Course, CourseLesson, Student, StudentCourse, StudentRespond, Task, Teacher])
 
-
-database.close()
