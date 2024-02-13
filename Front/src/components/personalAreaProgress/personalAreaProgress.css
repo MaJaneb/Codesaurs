@@ -1,0 +1,23 @@
+.personal-area-progress__wrapper {
+
+}
+
+.personal-area-progress__title{
+  display: flex;
+  justify-content: left;
+  color: white;
+  padding: 32px;
+}
+
+.personal-area-progress__content{
+  width: 70vw;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1vw;
+  gap: 1vw;
+}
+
+.abc{
+  background-color: #282c34;
+}

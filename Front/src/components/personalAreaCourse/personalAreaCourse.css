@@ -1,0 +1,68 @@
+.personal-area-course__wrapper{
+  display: flex;
+  border: 1px solid  #282c34;
+  border-radius: 16px;
+  width: 33.5vw;
+  padding: 8px;
+}
+
+.personal-area-course__image{
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  background-size: contain;
+}
+
+.personal-area-course__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+}
+
+.personal-area-course__title{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  font-size: 2.5vmin;
+}
+
+.personal-area-course__date{
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+.personal-area-course__progress-wrapper{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.personal-area-course__progress-wrapper > div{
+  display: flex;
+  justify-content: left;
+  margin-top: 8px;
+  font-size: 1.5vmin;
+  font-weight: 300;
+}
+
+.personal-area-course__progressbar{
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 16px;
+  height: 10px;
+  width: 100%;
+}
+
+progress::-webkit-progress-bar {
+  background:  #282c34;
+  border-radius: 16px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: red;
+  border-radius: 16px;
+}
