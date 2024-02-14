@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53603951-28f4-4271-a07b-3c19f74ec049" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/components/components.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/components/filterCard/FilterCard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/components/filterCard/filterCard.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/pages/filterPage/FilterPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/src/pages/filterPage/filterPage.scss" beforeDir="false" />
-    </list>
+    <list default="true" id="53603951-28f4-4271-a07b-3c19f74ec049" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "LoginForm(Iakynin)",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -102,7 +94,7 @@
       <workItem from="1707857358080" duration="108000" />
       <workItem from="1707858089567" duration="2390000" />
       <workItem from="1707897916796" duration="228000" />
-      <workItem from="1707899203683" duration="2512000" />
+      <workItem from="1707899203683" duration="2879000" />
     </task>
     <servers />
   </component>
