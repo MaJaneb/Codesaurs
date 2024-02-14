@@ -1,24 +1,15 @@
-import logo from "./assets/images/logo.png";
-import "./App.css";
+import React from 'react';
+import  './assets/style/Font.css';
+import DinosaurImage from './components/DinosaurImage';
+import LoginForm from './components/LoginForm';
 
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// каждая страница будет лежать в своей папке, откуда будет импротироваться сюда
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-import { ExamplePage } from "./pages/example/example";
-import FilterPage from "./pages/filterPage/FilterPage";
-
-function App() {
-  return (
-    <div className="App">
-        <FilterPage/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Начнем создавать онлайн-школу</p>
-        <ExamplePage />
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="container">
+            <DinosaurImage />
+            <LoginForm />
+        </div>
+    );
 }
 
 export default App;
